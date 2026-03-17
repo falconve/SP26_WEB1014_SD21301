@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thẻ img, video, a, danh sách</title>
+  </head>
+  <body>
+    <!-- Thẻ hình ảnh -->
+    <!-- Để chèn hình ảnh vào html 
+B1: sử dụng thẻ img
+B2: cho đường link vào trong thuộc tính src
+LƯU Ý: thuộc tính alt dùng để mô tả về hình ảnh
+-->
+    <img
+      src="https://photo.znews.vn/w210/Uploaded/ovhunst/2026_03_13/iPhone_1.jpeg"
+      alt="Hình ảnh về iphone 18"
+    />
+
+    <!-- Chèn hình ảnh bất kì
+    kèm theo 1 tiêu đề giới thiệu về hình ảnh 
+    -->
+
+    <!-- Để chèn video vào 1 file html cần những yêu cầu sau:
+    1. thẻ <video controls>
+        2. thẻ <source src="nguồn video" type="video/mp4" />
+    </video> 
+    LƯU Ý: phải có thuộc tính controls trong thẻ video 
+    để có thể xem dc video
+    -->
+    <video controls>
+      <source src="mặt mộc.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Thẻ để tạo 1 đường link: thẻ a -->
+    <p>https://www.canva.com/</p>
+    <!-- Đường link là khi ấn vào phải dẫn tới 1 website
+    khác. 
+    Cho đường link vào thuộc tính href 
+    chú ý khi dùng thẻ a thì nên bổ sung thuộc tính
+    target="_blank" => nhằm mục đích khi ấn vào link
+    mở tab mới
+    -->
+    <a href="https://www.canva.com/" target="_blank">Canva</a>
+
+    <!-- Thẻ danh sách: ul và li -->
+    <!-- LƯU Ý: thẻ li phải được dùng bên trong thẻ ul   
+     -->
+    <p>Danh sách công việc cần làm</p>
+    <!-- Danh sách không có sắp xếp -->
+    <ul>
+      <li>Thức dậy</li>
+      <li>Đánh răng</li>
+      <li>Ăn sáng</li>
+    </ul>
+    <!-- Danh sách có sắp xếp đánh số: ol -->
+    <ol>
+      <li>Đi chơi</li>
+      <li>Làm bài tập</li>
+      <li>Đi ngủ</li>
+    </ol>
+
+    <!-- Tạo 1 danh sách các công việc thường ngày phải làm 
+    Danh sách phải có tiêu đề  
+    -->
+
+    <h1>Danh sách công việc thường ngày</h1>
+    <ul>
+      <li>Thức dậy</li>
+      <li>Ăn sáng</li>
+      <li>Đi làm</li>
+    </ul>
+
+    <!-- Tạo 1 danh sách có đánh số về các tỉnh thành
+    ít nhất là 5 tỉnh thành của VN
+    Danh sách phải có tiêu đề
+    -->
+    <h1>Các tỉnh phố ở Việt Nam</h1>
+
+    <ol>
+      <li>Hà Nội</li>
+      <li>Hải Phòng</li>
+      <li>Hưng Yên</li>
+      <li>Đà Nẵng</li>
+      <li>Cần Thơ</li>
+    </ol>
+  </body>
+</html>
