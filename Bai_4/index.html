@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 4: CSS cho văn bản</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght,ELSH@100..900,2&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 
+    - CSS dùng để bố cục, sắp xếp các thẻ HTML 
+    - CSS làm đẹp các thẻ HTML 
+    -->
+    <!-- Cách 1: viết trực tiếp CSS vào trong thẻ mở của các thẻ
+    HTML 
+    Dùng thuộc tính style=""
+    -->
+
+    <!-- CHÚ Ý: các thuộc tính CSS phải viết trong style 
+    và ngăn cách nhau bởi dấu ; 
+    -->
+
+    <!-- CÚ PHÁP chung: tên thuộc tính: giá trị thuộc tính -->
+
+    <!-- 1. Định dạng chữ -->
+
+    <!-- Thuộc tính định dạng màu chữ: color: -->
+    <!-- Màu có 3 loại: 
+     - tên màu theo tiếng anh 
+     - mã màu: mã hex 
+     - mã màu: rgba là mã màu có thêm độ đậm nhạt
+     -->
+    <h1 style="color: #2072af">CSS là gì?</h1>
+    <!-- Thuộc tính kích cỡ chữ: font-size: số nguyên + px -->
+    <p style="font-size: 30px">Font chữ này bé quá</p>
+    <!-- Thuộc tính font chữ: font-family  -->
+    <p style="font-family: Handjet, sans-serif">Sửa font chữ</p>
+    <!-- Thuộc tính độ đậm nhạt của chữ: font-weight -->
+    <p style="font-weight: bolder">Chữ này chưa đậm</p>
+    <!-- Thuộc tính kiểu chữ: font-style: italic (in nghiên chữ) -->
+    <p style="font-style: italic">Kiểu chữ</p>
+
+    <!-- 2. Trang trí chữ -->
+    <!-- Thuộc tính trang trí chữ: text-decoration -->
+    <!-- Giá thị: line-through: gạch ngang & underline: gạch chân -->
+    <p style="text-decoration: underline">Chữ này cần trang trí</p>
+
+    <!-- Thuộc tính căn lề chữ: text-align -->
+    <!-- Giá trị: center: căn giữa, right: căn phải, left: căn trái -->
+    <p style="text-align: center">Chữ căn chỉnh</p>
+
+    <!-- Thuộc tính biến đổi chữ: text-transform -->
+    <!-- Giá trị: 
+     uppercase: in hoa, 
+     lowercase: in thường, 
+     capitalize: in hoa chữ cái đầu tiên của các từ-->
+    <p style="text-transform: capitalize">in hoa</p>
+
+    <!-- Thuộc tính lùi đầu dòng: text-indent -->
+    <p style="text-indent: 30px">Dòng này sẽ bị lùi vào đầu dòng 1 khoảng</p>
+
+    <!-- 3. Khoảng cách và bố cục chữ -->
+
+    <!-- Khoảng cách giữa các dòng trong văn bản -->
+    <!-- Thuộc tính: line-height -->
+    <p style="line-height: 1.5">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronicLorem Ipsum is simply dummy text of the
+      printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a
+      galley of type and scrambled it to make a type specimen book. It has
+      survived not only five centuries, but also the leap into electronic
+    </p>
+
+    <!-- Thuộc tính khoảng cách chữ: letter-spacing -->
+    <p style="letter-spacing: 10px">
+      Lorem Ipsum is simply dummy text of the printing
+    </p>
+
+    <!-- Thuộc tính khoảng cách các từ: word-spacing -->
+    <p style="word-spacing: 15px">but also the leap into</p>
+
+    <!-- Ví dụ tổng hợp: kết hợp nhiều thuộc tính CSS -->
+    <p style="color: chocolate; text-decoration: underline; word-spacing: 5px">
+      Kết hợp các thuộc tính CSS
+    </p>
+  </body>
+</html>
