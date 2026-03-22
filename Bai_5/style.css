@@ -1,0 +1,30 @@
+/* CÚ PHÁP: 
+        - CSS theo thẻ HTML: tên thẻ {thuộc tính css} 
+        - CSS theo tên class: .tên class {thuộc tính css}
+        - CSS theo tên id: #tên id {thuộc tính css}
+      */
+.doi-mau-the-p {
+  color: yellow;
+  font-size: 20px;
+  text-indent: 10px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* LƯU Ý: đối với việc sử dụng cả id và class trong 1 thẻ HTML
+      - Với những thuộc tính trùng nhau thì id sẽ được ưu tiên hơn. Tức là sẽ ghi 
+      đè lại thuộc tính của class
+      - Còn lại nếu id chưa có thuộc của class, thì sẽ lấy lại và sử dụng
+      */
+#the-p-dac-biet {
+  text-transform: capitalize;
+  color: red;
+}
+
+/* THỨ TỰ ƯU TIÊN CỦA CSS */
+/* 
+      *1. Inline CSS: viết trực tiếp CSS vào trong thuộc tính style của thẻ mở HTML
+      2. CSS theo id
+      3. CSS theo class
+      4. CSS theo tên thẻ
+      */

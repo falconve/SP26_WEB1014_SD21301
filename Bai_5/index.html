@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 5: Các cách nhúng và ưu tiên trong CSS</title>
+    <!-- Cách 2: Tạo 1 thẻ style chung để CSS cho các thẻ HTML -->
+    <!-- CÚ PHÁP: <style></style> -->
+    <!-- LƯU Ý: thẻ <style> phải viết ở bên trong thẻ <head> -->
+    <style></style>
+    <!-- Cách 3: Đưa CSS ra thành 1 file style.css và link file CSS vào trong HTML -->
+    <!-- Dùng thẻ link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cách 2 & 3 để nhúng được CSS vào HTML -->
+    <p class="doi-mau-the-p">nội dung văn bản cần css</p>
+
+    <!-- CSS theo class -->
+    <!-- class dùng để phục vụ CSS. 
+     - Những thẻ HTML có chung class thì có chung các thuộc tính CSS 
+     -->
+    <!-- Quy định đặt tên class:
+     - Phải có nghĩa
+     - Nếu tên class có 2 từ trở lên thì ngăn cách bởi dấu gạch ngang 
+     -->
+    <!-- LƯU Ý:
+     - đặt tên class không được đặt số ở đầu 
+     -->
+    <p class="doi-mau-the-p">Nội dung hiển thị 1</p>
+
+    <!-- CSS theo id -->
+    <!-- Mỗi id chỉ được sử dụng mộy lần duy nhất trên một trang HTML -->
+    <p class="doi-mau-the-p" id="the-p-dac-biet">Nội dung hiển thị 2</p>
+
+    <p id="the-p-dac-biet">Nội dung hiển thị 3</p>
+  </body>
+</html>
