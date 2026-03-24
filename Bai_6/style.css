@@ -1,0 +1,66 @@
+/* Thuộc tính chiều cao & chiều rộng */
+/* Chiều cao: height: số nguyên px */
+/* Chiều rộng: width: số nguyên px */
+
+.hop {
+  width: 350px;
+  height: 500px;
+  border: 2px double purple;
+  padding: 10px 5px 10px 5px;
+  margin-top: 20px;
+}
+
+.hinh-anh {
+  width: 350px;
+  height: 250px;
+}
+
+/* Sử dụng > để CSS cho mọi thẻ con nằm bên trong class cha */
+.tieu-de > a {
+  color: red;
+  /* Sử dụng giá trị none cho text-decoration để ẩn dấu gạch chân */
+  text-decoration: none;
+}
+
+/* Thuộc tính tạo đường viền: border */
+
+/* border: độ dày của đường viền* kiểu đường viền* màu đường viền */
+
+.hop {
+  /* border có các kiểu: 
+    solid: nét liền
+    double: nét đôi
+    dashed: nét đứt
+    dotted: nét chấm bi
+    */
+  /* border: 2px double purple;
+  padding: 10px 5px 10px 5px;
+  margin-top: 20px; */
+}
+
+/* Khoảng cách bên trong: padding */
+/* CÚ PHÁP: padding: 
+khoảng cách trên 
+khoảng cách phải 
+khoảng cách dưới 
+khoảng cách trái */
+
+/* padding-top (trên), padding-bottom (dưới), 
+padding-left (trái), padding-right (phải) */
+.hop {
+  /* padding: 10px 5px 10px 5px;
+  margin-top: 20px; */
+}
+
+/* Khoảng cách bên ngoài: margin */
+/* CÚ PHÁP: margin: 
+khoảng cách trên 
+khoảng cách phải 
+khoảng cách dưới 
+khoảng cách trái */
+
+/* margin-top (trên), margin-bottom (dưới), 
+margin-left (trái), margin-right (phải) */
+.hop {
+  /* margin-top: 20px; */
+}
