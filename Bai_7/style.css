@@ -1,0 +1,32 @@
+/* Thuộc tính display:
+1. block: 
+- Chiếm hết chiều ngang màn hình của màn hình thiết bị 
+- Và đẩy các thẻ html khác xuống dòng
+VD: 1 số thẻ dạng block 
+h1 .. h6, div, p, ...
+2. inline:
+- Nội dung tới đâu, thì chiều ngang tới đó
+- Không đẩy các thẻ khác xuống dòng
+- LƯU Ý: không thể sử dụng kết hợp với thuộc tính 
+width, height
+VD: span, b, a, ...
+3. inline-block:
+- Nội dung nằm cùng hàng 
+- Có thể kết hợp sử dụng được thuộc tính width, height
+*/
+
+/* THUỘC TÍNH CSS CÓ THỂ GHI ĐÈ LẠI CÁC THUỘC TÍNH
+MẶC ĐỊNH CỦA CÁC THẺ HTML */
+.the-h1 {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.noi-dung-1 {
+  width: 250px;
+  height: 250px;
+  /* Thuộc tính đổi màu nền */
+  background-color: pink;
+  display: inline-block;
+}
