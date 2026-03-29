@@ -30,3 +30,47 @@ MẶC ĐỊNH CỦA CÁC THẺ HTML */
   background-color: pink;
   display: inline-block;
 }
+
+/* 4. flex */
+/* flex là cách sắp xếp các phần tử (thẻ HTML) con theo chiều ngang hoặc chiều dọc */
+
+/* Thuộc tính display:flex luôn phải nằm ở class cha */
+.container {
+  display: flex;
+  height: 300px;
+  border: 1px solid black;
+  /* justify-content: space-around; */
+  /* Các giá trị của justify-content (căn theo chiều ngang): 
+    1. flex-start: đầu (mặc định nằm bên trái)
+    2. center: giữa (căn giữa theo chiều ngang)
+    3. flex-end: cuối (đẩy sang phải theo chiều ngang của class cha)
+    4. space-between: giãn đều
+    5. space-around: có khoảng cách xung quanh của thẻ HTML
+  */
+
+  /* LƯU Ý: justify-content: 
+    - Phải đặt thuộc tính justify-content ở css thẻ cha và cùng với display: flex
+    - Phải đi cùng với thuộc tính display: flex 
+  */
+  align-items: center;
+  /* align-items(căn theo chiều dọc), giá trị: center */
+
+  /* khoảng cách giữa các phần tử */
+  gap: 50px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  /* Thuộc tính flex: sử dụng để chia tỉ lệ các phần tử con */
+  flex: 1;
+}
+
+.box-3 {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  /* gấp đôi tỉ lệ của flex:1 */
+  flex: 2;
+}
