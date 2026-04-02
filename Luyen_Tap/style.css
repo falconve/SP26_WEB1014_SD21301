@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cot-trai,
+.cot-giua,
+.cot-phai {
+  height: 500px;
+}
+
+.cot-trai {
+  background-color: red;
+  flex: 2;
+}
+
+.cot-phai {
+  background-color: yellow;
+  flex: 1;
+}
+
+.cot-giua {
+  background-color: blue;
+  flex: 1;
+}
