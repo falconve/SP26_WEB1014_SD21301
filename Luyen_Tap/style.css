@@ -1,25 +1,35 @@
-.container {
+body {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.cot-trai,
-.cot-giua,
-.cot-phai {
-  height: 500px;
+/* .container {
+  width: 980px;
+  margin: 0 auto;
+} */
+
+.header {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
 }
 
-.cot-trai {
-  background-color: red;
-  flex: 2;
+.menu {
+  background-color: #323232;
 }
 
-.cot-phai {
-  background-color: yellow;
-  flex: 1;
+.menu-left ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 10px 20px;
 }
 
-.cot-giua {
-  background-color: blue;
-  flex: 1;
+.menu-left ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
 }
