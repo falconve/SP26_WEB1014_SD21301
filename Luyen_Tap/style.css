@@ -1,12 +1,18 @@
-body {
+/* Để đặt lại toàn bộ khoảng cách (padding, margin) của HTML về 0  */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* body {
   display: flex;
   justify-content: center;
-}
+  width: 980px;
+} */
 
-/* .container {
+.container {
   width: 980px;
   margin: 0 auto;
-} */
+}
 
 .header {
   background: lightblue;
@@ -32,4 +38,50 @@ body {
   color: white;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.banner {
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  margin: 10px 0;
+}
+
+.bang-tin-to {
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.noi-dung-tin-to h2 {
+  color: red;
+}
+
+.noi-dung-tin-to p {
+  padding-top: 20px;
+}
+
+.bang-tin-nho {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tin {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+}
+
+.tin .hinh-anh-tin {
+  width: 100%;
+}
+
+.hinh-anh-tin img {
+  width: 100%;
 }
